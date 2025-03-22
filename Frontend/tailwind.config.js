@@ -7,16 +7,16 @@ export default {
     theme: {
         extend: {
             colors: {
-                'primary': '#FFCE1A',
-                'secondary': "#0D0842",
-                'blackBG': '#F3F3F3',
-                'Favorite': '#FF5841'
+                primary: "#FFCE1A",
+                secondary: "#0D0842",
+                blackBG: "#F3F3F3",
+                favorite: "#FF5841",
             },
             fontFamily: {
-                'primary': ["Open Sans", 'sans-serif'],
-                'secondary': ["Nunito Sans", "sans-serif"]
-            }
+                open: ["Open Sans", "sans-serif"],
+                nun: ["Nunito Sans", "sans-serif"],
+            },
         },
     },
     plugins: [],
-}
+};
